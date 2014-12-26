@@ -7155,6 +7155,10 @@ h6 {
   text-align: center;
   vertical-align: middle; }
 
+.the-margin {
+  border-top: solid 2px #1987b5;
+  border-radius: 50px; }
+
 @media (max-width: 767px) {
   .animated {
     -webkit-animation: none !important;
@@ -7317,10 +7321,10 @@ h6 {
 
 .iphone-container > .iphone-screen {
   position: absolute;
-  top: 18.4%;
+  top: 16%;
   bottom: 12%;
-  left: 42px;
-  right: 42px;
+  left: 41px;
+  right: 41px;
   overflow: hidden; }
 
 .iphone-container > .iphone-screen > .controls {
@@ -7403,6 +7407,36 @@ h6 {
 
 #sponsors li img {
   width: 100%; }
+
+/* Detail
+/ -------------------------------------------------- */
+.detail {
+  margin-top: 60px; }
+
+.detail .icon {
+  text-align: center;
+  background: #1987b5;
+  display: inline-block;
+  height: 160px;
+  position: relative;
+  width: 160px;
+  margin-bottom: 40px;
+  border-radius: 999px; }
+
+.detail .icon span {
+  color: #FFFFFF;
+  font-size: 60px;
+  line-height: 160px; }
+
+.detail .emphasis {
+  font-size: 22px;
+  font-weight: 500; }
+
+.detail .wrap {
+  white-space: pre-wrap;
+  white-space: moz-pre-wrap;
+  white-space: o-pre-wrap;
+  white-space: webkit-pre-wrap; }
 
 /* About
 / -------------------------------------------------- */
