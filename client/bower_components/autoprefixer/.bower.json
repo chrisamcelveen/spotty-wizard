@@ -1,0 +1,22 @@
+{
+  "name": "autoprefixer",
+  "version": "3.1.2",
+  "main": "autoprefixer.js",
+  "ignore": [
+    "autoprefixer-core",
+    "bower.json",
+    "LICENSE",
+    "Makefile",
+    "README.md"
+  ],
+  "homepage": "https://github.com/unindented/autoprefixer",
+  "_release": "3.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.1.2",
+    "commit": "accdfba11ad4b50566358e32af125baccabb5903"
+  },
+  "_source": "git://github.com/unindented/autoprefixer.git",
+  "_target": "~3.1.2",
+  "_originalSource": "autoprefixer"
+}

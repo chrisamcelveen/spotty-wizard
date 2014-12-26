@@ -1,0 +1,31 @@
+<header id="header" class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2" ng-repeat="message in awesomeMessages">
+        <h2 class="text-center" >{{ message.name }}</h2>
+        <button type="button" class="close" ng-click="deleteMessage(message)">&times;</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form id="contact-form" data-parsley-validate>
+          <p class="text-center">Get ur messages hre bitches</p>
+          <p class="input-group">
+            <label for="fullname">Full Name * :</label>
+            <input type="text" id="fullname" name="name" required ng-model="newMessage.fullname" />
+
+            <label for="email">Email * :</label>
+            <input type="email" id="email" name="email" data-parsley-trigger="change" required ng-model="newMessage.email" />
+
+            <label for="message">Message (2 chars min, 100 max) :</label>
+            <textarea id="message" name="message" data-parsley-trigger="keyup" data-parsley-minlength="2" data-parsley-maxlength="100" data-parsley-validation-threshold="10" data-parsley-minlength-message = "Come on! You need to enter at least a 20 caracters long comment.." ng-model="newMessage.message" ></textarea>
+
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-primary" ng-click="addMessage()">Add New</button>
+            </span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>

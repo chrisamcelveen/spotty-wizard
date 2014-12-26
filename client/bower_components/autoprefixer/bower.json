@@ -1,0 +1,7 @@
+{
+  "name":     "autoprefixer",
+  "version":  "3.1.2",
+
+  "main":     "autoprefixer.js",
+  "ignore" :  ["autoprefixer-core", "bower.json", "LICENSE", "Makefile", "README.md"]
+}
