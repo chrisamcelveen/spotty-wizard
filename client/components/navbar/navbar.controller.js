@@ -3,9 +3,14 @@
 angular.module('meanTempApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
-      'title': 'Home',
-      'link': '/'
-    }];
+      'title': 'Benefits',
+      'link': '/benefits'
+    },{
+      'title': 'Our Technology',
+      'link': '/faq'
+    },
+
+    ];
 
     $scope.isCollapsed = true;
     $scope.isLoggedIn = Auth.isLoggedIn;

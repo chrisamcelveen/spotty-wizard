@@ -20,6 +20,8 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 // injector
 @import 'account/login/login.scss';
 @import 'admin/admin.scss';
+@import 'benefits/benefits.scss';
+@import 'faq/faq.scss';
 @import 'main/main.scss';
 @import 'message/message.scss';
 @import 'modal/modal.scss';
@@ -612,10 +614,15 @@ h6 {
 #sponsors li img {
   width: 100%;
 }
+/* Faq
+/ -------------------------------------------------- */
+.faq {
+  margin-bottom: 60px;
+}
 /* Detail
 / -------------------------------------------------- */
 .detail {
-  margin-top: 60px;
+  margin-top: 120px;
 }
 .detail .icon {
   text-align: center;
@@ -637,7 +644,6 @@ h6 {
 .detail .emphasis {
   font-size: 22px;
   font-weight: 500;
-
 }
 .detail .wrap {
   white-space: pre-wrap;
