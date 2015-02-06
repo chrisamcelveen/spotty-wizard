@@ -8,7 +8,10 @@ angular.module('meanTempApp')
     },{
       'title': 'Our Technology',
       'link': '/faq'
-    },
+    },{
+      'title': 'Team',
+      'link': '/team'
+    }
 
     ];
 
